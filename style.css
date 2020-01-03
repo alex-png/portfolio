@@ -6,15 +6,18 @@
     background-color: #1A1A1D;
     color: white;
     font-family: "Courier New", Courier, monospace;
+    overflow: hidden;
 }
 /*
     index.html
  */
 #intro {
-    padding-left: 25px;
-    padding-top: 25px;
-    padding-bottom: 25px;
+  max-width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
 }
+
+
 
 #about {
     padding-left: 25px;
@@ -37,7 +40,9 @@
 
 h1.h1-intro {
     font-family: "Trebuchet MS", Helvetica, sans-serif;
-    font-size: 50px;
+    font-size: 2rem;
+    color: #379683;
+
 }
 div.job {
   background-color: transparent;
