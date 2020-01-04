@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Mobile Styles */
+  @media only screen and (max-width: 823px) {
+    body {
+        background-color: #1A1A1D;
+        color: white;
+        font-family: "Courier New", Courier, monospace;
+        overflow: scroll;
+        text-align: center;
+    }
+    .container{
+        display: flex;
+        justify-content: center;
+        padding: 1em;
+        flex-flow: wrap;
+    }
+    h1.h1-intro {
+      font-family: "Trebuchet MS", Helvetica, sans-serif;
+      font-size: 2rem;
+      color: #379683;
+
+    } 
+    .btn {
+      border: 2px solid #6f2232;
+      background-color: transparent;
+      color: white;
+      padding: 14px 28px;
+      font-size: 16px;
+      cursor: pointer;
+        font-family: "Courier New", Courier, monospace;
+        text-align: center;
+    }
+    ul.nav {
+      list-style-type: none;
+      overflow: hidden;
+      background-color: #6f2232;
+      position: -webkit-sticky; /* Safari */
+      position: sticky;
+      min-height: 7.5em;
+      }
+    li.navList {
+        margin: 0;
+      float: right;
+    }
+    
+    li.navList a {
+        margin: 0;
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 22px 24px;
+      text-decoration: none;
+    }
+    
+    li.navList a.active {
+        margin: 0;
+      background-color: #1A1A1D;
+      color: white;
+    }
+    
+    #left {
+        float: left;
+    }
+    
+    li.navList a:hover:not(.active) {
+      background-color: #4E4E50;
+      color: #6f2232;
+    }
+
+
+  }
+  
+  /* Tablet Styles */
+  @media only screen and (min-width: 824px) and (max-width: 960px) {
+    body {
+      background-color: #F5CF8E; /* Yellow */
+    }
+  }
+  
+  /* Desktop Styles */
+  @media only screen and (min-width: 961px) {
+    body {
+      background-color: #B2D6FF; /* Blue */
+    }
+  }
+  
