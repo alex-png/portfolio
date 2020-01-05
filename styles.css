@@ -25,6 +25,11 @@
       color: #379683;
 
     } 
+    h1.h2-intro{
+      font-family: "Trebuchet MS", Helvetica, sans-serif;
+      font-size: 2rem;
+      color: #5CDB95;
+    }
     .btn {
       border: 2px solid #6f2232;
       background-color: transparent;
