@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Mobile Styles */
+  @media only screen and (max-width: 823px) {
+    body {
+        background-color: #1A1A1D;
+        color: white;
+        font-family: "Courier New", Courier, monospace;
+        overflow: scroll;
+        text-align: center;
+    }
+    .container{
+        display: flex;
+        justify-content: center;
+        flex-flow: wrap;
+        padding-top: 1em;
+        height: 100vh;
+        overflow: hidden;
+    }
+    h1.h1-intro {
+      font-family: "Trebuchet MS", Helvetica, sans-serif;
+      font-size: 2rem;
+      color: #379683;
+    } 
+    h1.h1-about{
+      font-family: "Trebuchet MS", Helvetica, sans-serif;
+      font-size: 2rem;
+      color: #6f2232;
+    }
+    h1.h2-intro{
+      font-family: "Trebuchet MS", Helvetica, sans-serif;
+      font-size: 2rem;
+      color: #5CDB95;
+    }
+    .btn {
+      border: 2px solid #6f2232;
+      background-color: transparent;
+      color: white;
+      padding: 14px 28px;
+      font-size: 16px;
+      cursor: pointer;
+        font-family: "Courier New", Courier, monospace;
+        text-align: center;
+    }
+    ul.nav {
+      list-style-type: none;
+      background-color: #275750;
+      border-bottom-color: #408b62;
+      border-bottom-style: solid;
+      min-height: 7vh;
+      }
+    li.navList {
+        margin: 0;
+      float: right;
+    }
+    
+    li.navList a {
+        margin: 0;
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 22px 24px;
+      text-decoration: none;
+    }
+    
+    li.navList a.active {
+        margin: 0;
+      background-color: #1A1A1D;
+      color: white;
+    }
+    
+    #left {
+        float: left;
+    }
+    
+    li.navList a:hover:not(.active) {
+      background-color: #4E4E50;
+      color: #6f2232;
+    }
+
+    #beneath-nav{
+      margin-top: 3.5em;
+      color: green;
+    }
+
+    #navbar {
+      overflow: hidden;
+      background-color: #333;
+      border-bottom-color: #5cdb95;
+      border-bottom-style: solid;
+  }
+
+  #navbar a {
+      float: left;
+      display: block;
+      color: #f2f2f2;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+      font-size: 17px;
+  }
+
+  #navbar a:hover {
+      background-color: #5cdb95;
+      color: black;
+  }
+
+  #navbar a.active {
+      background-color: #4CAF50;
+      color: white;
+  }
+
+  .content {
+      padding: 16px;
+  }
+
+  .sticky {
+      position: fixed;
+      top: 0;
+      width: 100%;
+  }
+
+  .sticky+.content {
+      padding-top: 60px;
+  }
+
+
+  }
+  
+  /* Tablet Styles */
+  @media only screen and (min-width: 824px) and (max-width: 960px) {
+    body {
+      background-color: #F5CF8E; /* Yellow */
+    }
+  }
+  
+  /* Desktop Styles */
+  @media only screen and (min-width: 961px) {
+    body {
+      background-color: #B2D6FF; /* Blue */
+    }
+  }
+  
