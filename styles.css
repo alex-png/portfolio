@@ -82,9 +82,18 @@
       color: #6f2232;
     }
 
-    #beneath-nav{
-      margin-top: 3.5em;
+    #About{
+      padding-top: 6.5em;
       color: green;
+    }
+    #Projects{
+
+      color:red;
+      padding-top: 3.5em;
+    }
+    #Contact{
+      color: purple;
+      padding-bottom: 10em;
     }
 
     #navbar {
@@ -108,11 +117,11 @@
       background-color: #5cdb95;
       color: black;
   }
-
+/* 
   #navbar a.active {
       background-color: #4CAF50;
       color: white;
-  }
+  } */
 
   .content {
       padding: 16px;

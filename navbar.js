@@ -1,10 +1,11 @@
 window.onscroll = function () { stickNavBarToTopOfScreen() };
 
-var navbar = document.getElementById("navbar");
-var sticky = navbar.offsetTop;
+let navbar = document.getElementById("navbar");
+
+let sticky = navbar.offsetTop;
 
 function stickNavBarToTopOfScreen() {
-    if (window.pageYOffset >= sticky) {
+    if (window.pageYOffset > sticky) {
         navbar.classList.add("sticky")
     } else {
         navbar.classList.remove("sticky");
